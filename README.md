@@ -1,6 +1,6 @@
 # Employee Management System (Java + MySQL)
 
-A **console-based Employee Management System** developed using **Core Java** and **MySQL**, designed to demonstrate real-world backend development concepts such as layered architecture, JDBC connectivity, validation, and secure configuration handling.
+A **console based Employee Management System** developed using **Core Java** and **MySQL**, designed to demonstrate real-world backend development concepts such as layered architecture, JDBC connectivity, validation, and secure configuration handling.
 
 
 ## Project Overview
@@ -56,9 +56,9 @@ It is built to practice **Core Java**, **OOPs**, **JDBC**, and **clean coding pr
 - Validates data before sending it to DAO
 
 ### Utility Layer
-- `DBConnection.java` → Creates MySQL connection
-- `ValidationUtil.java` → Checks input correctness
-- `FileLogger.java` → Logs important actions
+- `DBConnection.java` -> Creates MySQL connection
+- `ValidationUtil.java` -> Checks input correctness
+- `FileLogger.java` -> Logs important actions
 
 ### Exception Layer
 - Custom exception `InvalidInputException`
